@@ -20,6 +20,7 @@ import numpy as np
 
 def max_index(X):
     """Return the index of the maximum in a numpy array.
+
     O(n), there is another approach with O(2n) => O(n) perhaps more legible
     max_value = np.max(X)
     return np.where(X == max_value)
