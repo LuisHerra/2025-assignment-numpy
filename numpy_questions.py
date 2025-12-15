@@ -18,9 +18,9 @@ errors by calling `flake8` at the root of the repo.
 import numpy as np
 
 
-def max_index(X): 
+def max_index(X):
     """Return the index of the maximum in a numpy array.
-    O(n), there is another approach with O(2n) => O(n) perhaps more legible 
+    O(n), there is another approach with O(2n) => O(n) perhaps more legible
     max_value = np.max(X)
     return np.where(X == max_value)
 
@@ -66,7 +66,7 @@ def wallis_product(n_terms):
     pi : float
         The approximation of order `n_terms` of pi using the Wallis product.
     """
-    if n_terms == 0: 
+    if n_terms == 0:
         return 2.0
     result = 2.0
     for i in range(1, n_terms + 1):
